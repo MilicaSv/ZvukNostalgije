@@ -1,0 +1,78 @@
+@font-face {
+    font-family: moj_font;
+    src: url(../font/Eating\ Pasta.ttf);
+}
+body{
+    background-color: #b6926e;
+}
+header{
+    font-family: moj_font;
+    background-color: #332211;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+h1{
+    font-family: moj_font;
+}
+.nav a:hover{
+    font-family: moj_font;
+    color: black;
+    background-color: #b6926e;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+form{
+    width: 600px;
+    height: 550px;
+    border: 3.5px solid #332211;
+    padding: 10px;
+}
+p{
+    font-family: moj_font;
+    font-size: 20px;
+    color: #332211;
+}
+form input{
+    width: 400px;
+    height: 50px;
+    border: 3px solid #332211;
+    background-color: white;
+    color: black;
+}
+button{
+    font-family: moj_font;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #332211;
+    background-color: #b6926e;
+}
+button:hover{
+    font-family: moj_font;
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: black;
+    color: #b6926e;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 1.5s;
+}
+@media screen and (max-width: 500px){
+    .nav {
+        border: 5px double white ;
+    } 
+}

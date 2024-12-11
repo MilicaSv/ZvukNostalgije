@@ -1,0 +1,115 @@
+@font-face {
+    font-family: moj_font;
+    src: url(../font/Eating\ Pasta.ttf);
+}
+body{
+    background-color: #b6926e;
+}
+header{
+    font-family: moj_font;
+    background-color: #332211;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+h1{
+    font-family: moj_font;
+}
+.nav a:hover{
+    font-family: moj_font;
+    color: black;
+    background-color: #b6926e;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-family: moj_font;
+    text-align: center;
+    color: #332211;
+    font-size: 70px;
+}
+main {
+    width: 1242px;
+    height: 150px;
+    background-color: #332211;
+    border: 2px solid black;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: moj_font;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: moj_font;
+}
+.slike{
+    display: flex;
+    flex-direction: row;
+}
+.slika1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.slika2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.slika3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.slika4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.slika5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.slike p{
+    font-family: moj_font;
+    color: black;
+}
+@media screen and (max-width: 500px){
+    .nav {
+        border: 5px double white ;
+    } 
+}
