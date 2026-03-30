@@ -1,0 +1,104 @@
+@font-face {
+    font-family: moj_font;
+    src: url(../font/Eating\ Pasta.ttf);
+}
+body{
+    background-color: #695f54;
+}
+header{
+    font-family: moj_font;
+    background-color: #332211;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+h1{
+    font-family: moj_font;
+}
+.nav a:hover{
+    font-family: moj_font;
+    color: black;
+    background-color: #72685b;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+}
+nav ul li {
+    display: inline;
+    margin: 0px 8px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-family: moj_font;
+    text-align: center;
+    color: #281b0f;
+    font-size: 50px;
+    height: 40px;
+}
+main {
+    display: flex;
+    height: 120px;
+    background-color: #332211;
+    border: 2px solid black;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 13px;
+    color: whitesmoke;
+    font-family: moj_font;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 13px;
+    color: whitesmoke;
+    font-family: moj_font;
+}
+.p3{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 13px;
+    color: whitesmoke;
+    font-family: moj_font;
+}
+.slike{
+    display: flex;
+    font-size: 15px
+}
+.slika2{
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.slika3{
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 330px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.elvis{
+    font-family: moj_font;
+    color: black;
+}
+.rijana{
+    font-family: moj_font;
+    color: black;
+    margin-top: 45px;
+}
